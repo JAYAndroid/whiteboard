@@ -120,10 +120,6 @@ public class BasePainter extends Activity implements OnClickListener
 		{
 			// 进入分享界面
 			share();
-		} else if (itemId == R.id.menu_rotate)
-		{
-			// 旋转当前设备的屏幕方向
-			rotate();
 		} else if (itemId == R.id.menu_open)
 		{
 			// 打开图形文件

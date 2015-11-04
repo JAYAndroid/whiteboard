@@ -47,10 +47,10 @@
         android:orderInCategory="50"
         android:title="@string/more">
         <menu>
-            <item
-                android:id="@+id/menu_rotate"
-                android:orderInCategory="10"
-                android:title="@string/menu_rotate"/>
+<!--             <item -->
+<!--                 android:id="@+id/menu_rotate" -->
+<!--                 android:orderInCategory="10" -->
+<!--                 android:title="@string/menu_rotate"/> -->
             <item
                 android:id="@+id/menu_preferences"
                 android:orderInCategory="20"

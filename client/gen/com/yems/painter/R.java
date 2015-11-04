@@ -68,8 +68,7 @@ public final class R {
         public static final int menu_file=0x7f060015;
         public static final int menu_more=0x7f060019;
         public static final int menu_open=0x7f060016;
-        public static final int menu_preferences=0x7f06001b;
-        public static final int menu_rotate=0x7f06001a;
+        public static final int menu_preferences=0x7f06001a;
         public static final int menu_save=0x7f060012;
         public static final int menu_set_wallpaper=0x7f060018;
         public static final int menu_share=0x7f060017;
