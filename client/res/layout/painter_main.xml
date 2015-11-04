@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.yems.painter.control.PainterCanvasControl
+        android:id="@+id/canvas"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <RelativeLayout
+        android:id="@+id/settings_layout"
+        style="@style/Settings" >
+
+        <LinearLayout
+            android:id="@+id/properties_bar"
+            style="@style/BrushProperties.Wrapper" >
+
+            <LinearLayout style="@style/BrushProperties.Controls" >
+
+                <TextView
+                    style="@style/BrushProperties.Label"
+                    android:text="@string/brush_color" />
+
+                <ImageButton
+                    android:id="@+id/bt_change_brush_color"
+                    style="@style/BrushProperties.Control.Image"
+                    android:onClick="changeBrushColor"
+                    android:src="@drawable/ic_menu_colors" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/BrushProperties.Controls" >
+
+                <TextView
+                    style="@style/BrushProperties.Label"
+                    android:text="@string/brush_size" />
+
+                <SeekBar
+                    android:id="@+id/brush_size"
+                    style="@style/BrushProperties.Control" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

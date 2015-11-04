@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferences_interface_category" >
+        <ListPreference
+            android:dialogTitle="@string/select_language_title"
+            android:entries="@array/languages"
+            android:entryValues="@array/locales"
+            android:key="@string/preferences_language"
+            android:summary="@string/preferences_language_summary"
+            android:title="@string/preferences_language_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_behavior_category" >
+        <CheckBoxPreference
+            android:defaultValue="1"
+            android:key="@string/preferences_last_file"
+            android:summary="@string/preferences_last_file_summary"
+            android:title="@string/preferences_last_file_title" />
+
+        <ListPreference
+            android:defaultValue="10"
+            android:dialogTitle="@string/preferences_before_exit_title"
+            android:entries="@array/before_exit_options"
+            android:entryValues="@array/before_exit_options_codes"
+            android:key="@string/preferences_before_exit"
+            android:summary="@string/preferences_before_exit_summary"
+            android:title="@string/preferences_before_exit_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_shortcuts_category" >
+        <ListPreference
+            android:defaultValue="10"
+            android:dialogTitle="@string/preferences_volume_shortcuts_title"
+            android:entries="@array/volume_buttons_options"
+            android:entryValues="@array/volume_buttons_options_codes"
+            android:key="@string/preferences_volume_shortcuts"
+            android:summary="@string/preferences_volume_shortcuts_summary"
+            android:title="@string/preferences_volume_shortcuts_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_backup_category" >
+        <ListPreference
+            android:defaultValue="10"
+            android:dialogTitle="@string/copy_file_title"
+            android:entries="@array/backup_opened_options"
+            android:entryValues="@array/backup_opened_options_codes"
+            android:key="@string/preferences_backup_openeded_file"
+            android:summary="@string/preferences_backup_openeded_file_summary"
+            android:title="@string/preferences_backup_openeded_file_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_about_category" >
+        <Preference
+            android:key="@string/preferences_about"
+            android:summary="@string/preferences_about_summary"
+            android:title="@string/preferences_about_title" />
+    </PreferenceCategory>
+
+    <!--
+    <PreferenceCategory android:title="@string/preferences_other_category">
+	    <CheckBoxPreference 
+	    	android:summary="@string/preferences_tooltips_summary" 
+	    	android:key="@string/preferences_tooltips" 
+	    	android:title="@string/preferences_tooltips_title" 
+	    	android:defaultValue="1" />
+	    <CheckBoxPreference 
+	    	android:summary="@string/preferences_shake_summary" 
+	    	android:title="@string/preferences_shake_title" 
+	    	android:key="@string/preferences_shake" 
+	    	android:defaultValue="1" />
+	</PreferenceCategory>
+    -->
+
+</PreferenceScreen>

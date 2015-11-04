@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- app -->
+    <string name="app_name">网络电子白板</string>
+    <string name="app_version">Version: %1$s</string>
+    <string name="about_text">网络电子白板</string>
+    <string name="app_developers">如遇问题，请发邮件至380413512@qq.com</string>
+
+    <!-- dialog -->
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="more">更多</string>
+    <string name="which_app">Complete action using</string>
+    <string name="clear_bitmap_prompt_title">清除</string>
+    <string name="clear_bitmap_prompt">确定要清除画板内容吗?</string>
+    <string name="saving_title">保存</string>
+    <string name="saving_to_sd">正在保存图片，请稍后...</string>
+    <string name="wallpaper_title">壁纸</string>
+    <string name="aply_wallpaper">正在设置壁纸，请稍后...</string>
+    <string name="exit_app_prompt_title">退出</string>
+    <string name="exit_app_prompt">退出前是否需要保存当前图片?</string>
+    <string name="share_prompt_title">分享</string>
+    <string name="share_prompt">分享前是否需要保持图片?</string>
+    <string name="open_prompt_title">使用以下方式打开</string>
+    <string name="open_prompt">打开其他图片前是否需要保持当前图片?</string>
+    <string name="share_image_title">使用以下方式分享</string>
+    <string name="select_language_title">请选择语言</string>
+    <string name="copy_file_title">复制文件</string>
+
+    <!-- menu -->
+    <string name="menu_brush">画笔</string>
+    <string name="menu_rotate">旋转屏幕</string>
+    <string name="menu_clear">清除</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_undo">撤销</string>
+    <string name="menu_redo">还原</string>
+    <string name="menu_open">打开</string>
+    <string name="menu_preferences">参数设置</string>
+    <string name="menu_set_wallpaper">设置为壁纸</string>
+    <string name="menu_file">文件</string>
+
+    <!-- brush setup -->
+    <string name="brush_size">画笔尺寸</string>
+    <string name="blur_radius">模糊半径</string>
+    <string name="blur_style">模糊样式</string>
+    <string name="blur_type_select">请选择模糊样式</string>
+
+    <string-array name="blur_types">
+        <item>无</item>
+        <item>正常</item>
+        <item>立体</item>
+        <item>外部</item>
+        <item>内部</item>
+    </string-array>
+
+    <string name="brush_color">画笔颜色</string>
+    <string name="color_pick">请选择颜色</string>
+
+    <!-- toasts -->
+    <string name="invalid_file">文件格式无效</string>
+    <string name="file_not_found">文件未找到</string>
+    <string name="sd_card_not_writeable">当前SD卡不能写记录数据</string>
+    <string name="sd_card_not_available">SD卡不可用</string>
+    <string name="wallpaper_setted">壁纸设置成功</string>
+    <string name="wallpaper_error">壁纸设置失败</string>
+
+    <!-- settings -->
+    <string name="settings_version">版本</string>
+    <string name="settings_orientation">设置方向</string>
+    <string name="settings_last_picture">最近一张图片</string>
+    <string name="settings_brush_size">画笔尺寸</string>
+    <string name="settings_brush_color">画笔颜色</string>
+    <string name="settings_brush_blur_style">画笔模糊样式</string>
+    <string name="settings_brush_blur_radius">画笔模糊半径</string>
+    <string name="settings_brush_type">画笔样式</string>
+    <string name="settings_force_open_file">强行打开文件</string>
+
+    <!-- language -->
+    <string-array name="languages">
+        <item>英语</item>
+        <item>Русский</item>
+    </string-array>
+    <string-array name="locales">
+        <item>英语</item>
+        <item>ru</item>
+    </string-array>
+
+    <!-- backup options -->
+    <string-array name="backup_opened_options">
+        <item>复制非本APP的文件</item>
+        <item>总是复制</item>
+        <item>从不复制</item>
+    </string-array>
+    <string-array name="backup_opened_options_codes">
+        <item>10</item>
+        <item>20</item>
+        <item>100</item>
+    </string-array>
+
+    <!-- exit options -->
+    <string-array name="before_exit_options">
+        <item>提交保存的文件</item>
+        <item>保存当前文件</item>
+        <item>无操作选项</item>
+    </string-array>
+    <string-array name="before_exit_options_codes">
+        <item>10</item>
+        <item>20</item>
+        <item>100</item>
+    </string-array>
+
+    <!-- volume shortcuts options -->
+    <string-array name="volume_buttons_options">
+        <item>改变画笔尺寸</item>
+        <item>撤销/恢复</item>
+    </string-array>
+    <string-array name="volume_buttons_options_codes">
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+
+    <!-- preferences -->
+    <string name="preferences_interface_category">界面</string>
+    <string name="preferences_behavior_category">动作</string>
+    <string name="preferences_shortcuts_category">快捷键</string>
+    <string name="preferences_backup_category">备份</string>
+    <string name="preferences_about_category">关于</string>
+    <string name="preferences_language">语言设置</string>
+    <string name="preferences_language_title">语言</string>
+    <string name="preferences_language_summary">改变界面语言后，需要重新启动APP</string>
+    <string name="preferences_last_file">最近一次绘制的图形</string>
+    <string name="preferences_last_file_title">打开最近一次绘制的图形</string>
+    <string name="preferences_last_file_summary">启动时，打开最近一次绘制的图形文件</string>
+    <string name="preferences_backup_openeded_file">备份打开的文件</string>
+    <string name="preferences_backup_openeded_file_title">文件备份设置</string>
+    <string name="preferences_backup_openeded_file_summary">备份打开的文件到当前应用程序文件夹中</string>
+    <string name="preferences_tooltips">参数设置提示框</string>
+    <string name="preferences_tooltips_title">显示提示框</string>
+    <string name="preferences_tooltips_summary">启动时显示提示信息</string>
+    <string name="preferences_shake">preferencesShake</string>
+    <string name="preferences_shake_title">Shake to clear</string>
+    <string name="preferences_shake_summary">Clear canvas during device shaking</string>
+    <string name="preferences_about">preferencesAbout</string>
+    <string name="preferences_about_title">关于</string>
+    <string name="preferences_about_summary">关于本应用程序的相关信息</string>
+    <string name="preferences_before_exit">preferencesBeforeExit</string>
+    <string name="preferences_before_exit_title">退出前的行为参数</string>
+    <string name="preferences_before_exit_summary">设置退出前的行为参数</string>
+    <string name="preferences_volume_shortcuts">preferencesVolumeShortcuts</string>
+    <string name="preferences_volume_shortcuts_title">音量键</string>
+    <string name="preferences_volume_shortcuts_summary">为音量键绑定指定的功能</string>
+
+</resources>

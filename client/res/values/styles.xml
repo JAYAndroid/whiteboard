@@ -1,0 +1,61 @@
+<resources>
+    	<style name="BrushProperties"></style>    	
+        <style name="BrushProperties.Wrapper">
+            <item name="android:padding">10dp</item>
+            <item name="android:gravity">bottom</item>
+            <item name="android:layout_width">fill_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:orientation">vertical</item>
+            <item name="android:layout_alignParentBottom">true</item>
+            <item name="android:background">@android:color/white</item>
+        </style>        
+        <style name="BrushProperties.Label">
+            <item name="android:layout_width">80dp</item>
+            <item name="android:layout_height">fill_parent</item>
+            <item name="android:paddingRight">5dp</item>
+            <item name="android:gravity">center_vertical</item>
+            <item name="android:textColor">@android:color/black</item>
+        </style>        
+        <style name="BrushProperties.Control">
+            <item name="android:layout_width">fill_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+        </style>
+        <style name="BrushProperties.Control.Image">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:paddingTop">0dp</item>
+            <item name="android:paddingLeft">3dp</item>
+            <item name="android:paddingRight">3dp</item>
+            <item name="android:paddingBottom">3dp</item>
+        </style>
+        <style name="BrushProperties.Controls">
+            <item name="android:layout_width">fill_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:orientation">horizontal</item>
+            <item name="android:paddingBottom">10dp</item>
+        </style>
+        <style name="BrushProperties.Controls.Last">
+            <item name="android:paddingBottom">0sp</item>
+        </style>
+        <style name="BrushsPresets">
+        	<item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:orientation">horizontal</item>
+            <item name="android:background">#e5e5e5</item>
+            <item name="android:paddingLeft">1dp</item>
+            <item name="android:gravity">center_horizontal</item>
+        </style>
+        <style name="BrushsPresets.Preset">
+        	<item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:background">@android:color/white</item>
+            <item name="android:layout_marginRight">1dp</item>
+            <item name="android:layout_marginBottom">1dp</item>
+            <item name="android:padding">10dp</item>
+        </style>
+         <style name="Settings">
+        	<item name="android:layout_width">fill_parent</item>
+            <item name="android:layout_height">fill_parent</item>
+            <item name="android:background">@android:color/white</item>
+            <item name="android:visibility">gone</item>
+        </style>
+</resources>

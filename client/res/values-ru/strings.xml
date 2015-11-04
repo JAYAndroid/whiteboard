@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--  app -->
+	<string name="app_version">Версия: %1$s</string>
+    <string name="about_text">Бесплатный графический редактор с открытым
+    исходным кодом под лицензией MIT</string>
+    <string name="app_developers">Разрабочик:
+    \nАртур Бикмуллин (@devolonter)
+    \n\nСоразработчики:
+    \nConstantine Chartomatzis, Lioncash
+    \n\nЛокализация: 
+    \nОльга Бикмуллина (@AhNinniah)</string>
+	
+	<!--  dialog -->
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="more">Еще</string>
+    <string name="which_app">Выполнить с помощью</string>
+    <string name="clear_bitmap_prompt_title">Очистить</string>
+    <string name="clear_bitmap_prompt">Вы действительно хотите очистить холст?</string>      
+    <string name="saving_title">Сохранение</string>
+    <string name="saving_to_sd">Изображение сохраняется. Пожалуйста, подождите...</string>
+    <string name="wallpaper_title">Обои</string>
+    <string name="aply_wallpaper">Установка обоев. Пожалуйста подождите...</string>
+    <string name="exit_app_prompt_title">Выход</string>
+	<string name="exit_app_prompt">Сохранить изображение перед выходом?</string>
+	<string name="share_prompt_title">Отправить</string>
+	<string name="share_prompt">Сохранить изображение перед отправкой?</string>
+	<string name="open_prompt_title">Открыть с помощью</string>
+	<string name="open_prompt">Сохранить изображение перед открытием другого файла?</string>
+	<string name="share_image_title">Отправить с помощью</string>
+	<string name="select_language_title">Выберите язык</string>
+	<string name="copy_file_title">Копировать файлы</string>
+	
+	<!-- menu -->
+    <string name="menu_brush">Кисть</string>
+    <string name="menu_rotate">Повернуть</string>
+    <string name="menu_clear">Очистить</string>
+    <string name="menu_save">Сохранить</string>
+    <string name="menu_share">Отправить</string>
+    <string name="menu_about">О приложении</string>
+    <string name="menu_undo">Отменить</string>
+    <string name="menu_redo">Вернуть</string>
+    <string name="menu_open">Открыть</string>
+    <string name="menu_preferences">Настройки</string>
+    <string name="menu_set_wallpaper">Установить как обои</string>
+    <string name="menu_file">Файл</string>
+
+	<!--  brush setup -->
+    <string name="brush_size">Размер кисти</string>
+    <string name="blur_radius">Размытие</string>
+    <string name="blur_style">Тип размытия</string>
+    <string name="blur_type_select">Выберите тип размытия</string>
+    <string-array name="blur_types">
+        <item>Без размытия</item>
+        <item>Стандартное</item>
+        <item>Сплошное</item>
+        <item>Внешннее</item>
+        <item>Внутреннее</item>
+    </string-array>
+    <string name="brush_color">Цвет кисти</string>
+    <string name="color_pick">Выберите цвет</string> 
+    
+	<!-- toasts -->      	
+	<string name="invalid_file">Неверный формат файла</string>
+	<string name="file_not_found">Файл не найден</string>
+	<string name="sd_card_not_writeable">Карта памяти недоступна для записи</string>
+    <string name="sd_card_not_available">Карта памяти недоступна</string>
+    <string name="wallpaper_setted">Обои успешно установлены</string>
+    <string name="wallpaper_error">Обои не установлены. Произошла ошибка</string>
+    
+    <!-- backup options -->
+    <string-array name="backup_opened_options">
+    	<item>Только из других папок</item>
+        <item>Всегда</item>
+        <item>Никогда</item>
+    </string-array>
+    
+    <!-- exit options -->
+    <string-array name="before_exit_options">
+    	<item>Предложить сохранить</item>
+        <item>Сохранить файл</item>
+        <item>Ничего не делать</item>
+    </string-array>
+    
+    <!-- volume shortcuts options -->
+    <string-array name="volume_buttons_options">
+    	<item>Изменить размер кисти</item>
+        <item>Отменить/Вернуть</item>
+    </string-array>
+    
+    <!-- preferences -->
+    <string name="preferences_interface_category">Интерфейс</string>
+    <string name="preferences_behavior_category">Поведение</string>
+    <string name="preferences_shortcuts_category">Горяие клавиши</string>
+    <string name="preferences_backup_category">Резервное копирование</string>    
+    <string name="preferences_about_category">О программе</string>
+    
+    <string name="preferences_language_title">Язык</string>
+    <string name="preferences_language_summary">Установить язык приложения. Требуется перезапуск</string>
+    
+    <string name="preferences_last_file_title">Открывать последний файл</string>
+    <string name="preferences_last_file_summary">Открывать последний рабочий файл при старте приложения</string>
+    
+    <string name="preferences_backup_openeded_file_title">Копировать открываемые файлы</string>
+    <string name="preferences_backup_openeded_file_summary">Копировать открываемые файлы в папку приложения</string>
+    
+    <string name="preferences_tooltips_title">Показывать подсказки</string>
+    <string name="preferences_tooltips_summary">Показывать трюки и советы при старте приложения</string>
+    
+    <string name="preferences_shake_title">Потрясти чтобы очистить</string>
+    <string name="preferences_shake_summary">Очищать холст при тряске устройства</string>
+    
+    <string name="preferences_about_title">О программе</string>
+    <string name="preferences_about_summary">Информация о программе</string>
+    
+    <string name="preferences_before_exit_title">Действие перед выходом</string>
+    <string name="preferences_before_exit_summary">Действие перед выходом из приложения</string>
+    
+    <string name="preferences_volume_shortcuts_title">Кнопки громкости</string>
+    <string name="preferences_volume_shortcuts_summary">Установить действие для кнопок громкости</string>
+</resources>

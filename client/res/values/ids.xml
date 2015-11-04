@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item type="id" name="dialog_clear" />
+	<item type="id" name="dialog_exit" />
+	<item type="id" name="dialog_share" />
+	<item type="id" name="dialog_about" />
+	<item type="id" name="dialog_open" />
+</resources>

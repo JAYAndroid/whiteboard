@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_brush"
+        android:icon="@drawable/ic_menu_brush"
+        android:orderInCategory="10"
+        android:title="@string/menu_brush"/>
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@drawable/ic_menu_save"
+        android:orderInCategory="20"
+        android:title="@string/menu_save"/>
+    <item
+        android:id="@+id/menu_clear"
+        android:icon="@drawable/ic_menu_trash"
+        android:orderInCategory="30"
+        android:title="@string/menu_clear"/>
+    <item
+        android:id="@+id/menu_undo"
+        android:icon="@drawable/ic_menu_undo"
+        android:orderInCategory="40"
+        android:title="@string/menu_undo"/>
+    <item
+        android:id="@+id/menu_file"
+        android:icon="@drawable/ic_menu_file"
+        android:orderInCategory="50"
+        android:title="@string/menu_file">
+        <menu>
+            <item
+                android:id="@+id/menu_open"
+                android:orderInCategory="10"
+                android:title="@string/menu_open"/>
+            <item
+                android:id="@+id/menu_share"
+                android:orderInCategory="20"
+                android:title="@string/menu_share"/>
+            <item
+                android:id="@+id/menu_set_wallpaper"
+                android:orderInCategory="30"
+                android:title="@string/menu_set_wallpaper"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_more"
+        android:icon="@drawable/ic_menu_more"
+        android:orderInCategory="50"
+        android:title="@string/more">
+        <menu>
+            <item
+                android:id="@+id/menu_rotate"
+                android:orderInCategory="10"
+                android:title="@string/menu_rotate"/>
+            <item
+                android:id="@+id/menu_preferences"
+                android:orderInCategory="20"
+                android:title="@string/menu_preferences"/>
+        </menu>
+    </item>
+
+</menu>
