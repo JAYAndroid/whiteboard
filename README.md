@@ -17,11 +17,9 @@ Netty是由JBOSS提供的一个java开源框架。Netty提供异步的、事件�
 
 注：服务端默认端口为8080；
 
-如有问题，请发邮件至 13107635518@163.com
-
 License
 
-Copyright 2015-2019 yems
+Copyright 2015-2019 
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
